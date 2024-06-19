@@ -12,7 +12,7 @@ public class HealthCheckController {
     @GetMapping("/healthcheck")
     public Map<String, String> healthCheck() {
         Map<String, String> response = new HashMap<>();
-        response.put("status", "UP");
+        response.put("status", "UP 2");
         return response;
     }
 }
